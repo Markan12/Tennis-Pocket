@@ -27,7 +27,6 @@ The App does not collect or transmit:
 
 The following data is stored locally on your Apple Watch only:
 - Current match scores and game state
-- Player identifiers (default: "Player 1" and "Player 2")
 - Session history (current session only)
 
 This data:
@@ -105,4 +104,4 @@ By using the App, you consent to this Privacy Policy and its terms.
 
 ---
 
-© 2024 Tennis Score Tracker. All rights reserved.
+© 2025 Tennis Pocket. All rights reserved.
