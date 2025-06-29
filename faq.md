@@ -182,12 +182,6 @@ Yes! The **match summary** screen shows:
 │ ⏱️ Time     45:32   │
 └─────────────────────┘
 ```
-
-### Can I change player names?
-
-⚠️ **Currently**: Fixed as "Player 1" and "Player 2"  
-🔜 **Coming in v1.1**: Custom player names!
-
 ---
 
 ## Troubleshooting
@@ -219,14 +213,6 @@ The serve indicator follows **official tennis rules**:
 3. Restart the app
 
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
-
-### Buttons are cut off on my 38mm/40mm watch
-
-The app is optimized for all sizes, but if you see issues:
-- 📸 Take a screenshot (Digital Crown + Side button)
-- 📝 Report via App Store review
-- 🔧 We'll fix in the next update!
-
 ---
 
 ## Support
