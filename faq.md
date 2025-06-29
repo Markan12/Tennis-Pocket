@@ -118,3 +118,146 @@ Yes! The **Undo button** reverses your last action.
 
 | Metric | Description | Update Frequency |
 |--------|-------------|------------------|
+| 👣 **Steps** | Real-time step count | Live |
+| 🔥 **Calories** | Active calories burned | Every few seconds |
+| ⏱️ **Duration** | Total match time | Live |
+
+### Do I need to grant permissions?
+
+The app requests two permissions:
+
+#### 1. HealthKit
+- **Purpose**: Save workouts and read calories
+- **Required?**: No - app works without it
+- **Impact**: No fitness tracking if denied
+
+#### 2. Motion & Fitness
+- **Purpose**: Count your steps
+- **Required?**: No - app works without it
+- **Impact**: Steps show as 0 if denied
+
+### Are my workouts saved to Apple Health?
+
+Yes! ✅ Each match is automatically saved as a tennis workout including:
+- Duration
+- Active calories
+- Start/end time
+- Activity type (Tennis)
+
+---
+
+## Match Features
+
+### What happens in a tie-break?
+
+When the game score reaches **6-6**:
+
+1. 🎯 "Tie-Break" overlay appears
+2. 🔢 Scoring changes to points (1, 2, 3...)
+3. 🎾 First to 7 points (with 2-point lead) wins
+4. 🔄 Server alternates every 2 points
+
+### What's a Match Tie-Break?
+
+When sets are tied **1-1**, a special match tie-break begins:
+
+| Feature | Regular Tie-Break | Match Tie-Break |
+|---------|------------------|-----------------|
+| **When** | At 6-6 in games | At 1-1 in sets |
+| **Target** | 7 points | 10 points |
+| **Lead needed** | 2 points | 2 points |
+| **Overlay text** | "Tie-Break" | "Match Tie-Break" |
+
+### Can I see match statistics?
+
+Yes! The **match summary** screen shows:
+
+```
+┌─────────────────────┐
+│   Player 1 wins!    │
+│      6-4 7-6(5)     │
+├─────────────────────┤
+│ 👣 Steps      2,847 │
+│ 🔥 Calories   127   │
+│ ⏱️ Time     45:32   │
+└─────────────────────┘
+```
+
+### Can I change player names?
+
+⚠️ **Currently**: Fixed as "Player 1" and "Player 2"  
+🔜 **Coming in v1.1**: Custom player names!
+
+---
+
+## Troubleshooting
+
+### The serve indicator seems wrong
+
+The serve indicator follows **official tennis rules**:
+
+| Situation | What you see |
+|-----------|--------------|
+| First serve of game | Right side (deuce court) |
+| After each point | Alternates sides |
+| Tie-break | Changes every 2 points |
+
+💡 **Tip**: The yellow dot always shows WHO is serving, bars show WHERE to serve from.
+
+### Steps or calories show as 0
+
+**Check permissions:**
+1. On iPhone: Settings → Privacy & Security
+2. Tap Motion & Fitness → Tennis Score ON ✅
+3. Tap Health → Tennis Score → Turn All Categories ON ✅
+
+### The app crashed or froze
+
+**Quick fix:**
+1. Press and hold the Digital Crown + Side button
+2. When app grid appears, swipe up on Tennis Score
+3. Restart the app
+
+⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
+
+### Buttons are cut off on my 38mm/40mm watch
+
+The app is optimized for all sizes, but if you see issues:
+- 📸 Take a screenshot (Digital Crown + Side button)
+- 📝 Report via App Store review
+- 🔧 We'll fix in the next update!
+
+---
+
+## Support
+
+### Need help or found a bug?
+
+| Channel | Best for | Response time |
+|---------|----------|---------------|
+| 🌟 **App Store Review** | Feature requests | We read all reviews |
+| 🐛 **GitHub Issues** | Bug reports | 1-2 days |
+| 📧 **Email** | Private concerns | 2-3 days |
+
+### Contact Information
+
+- **GitHub**: `[github.com/yourusername/tennis-score-tracker]`
+- **App Store**: [Download Here](#)
+
+---
+
+<div align="center">
+
+## Download Now
+
+### 🎾 Tennis Score Tracker
+
+Available on Apple Watch Series 3 and later
+
+[![Download on App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](#)
+
+**Version 1.0** | Made with ❤️ for tennis players
+
+[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/yourusername/tennis-score-tracker)
+
+</div>
