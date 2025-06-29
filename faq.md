@@ -3,109 +3,118 @@ layout: default
 title: FAQ
 nav_order: 3
 ---
+# Frequently Asked Questions
 
-Tennis Score Tracker for Apple Watch - FAQ
+**Tennis Score Tracker for Apple Watch**
 
-🎾 General Questions
+## Table of Contents
 
-What is Tennis Score Tracker?
+- [General Questions](#general-questions)
+- [Scoring System](#scoring-system)
+- [User Interface](#user-interface)
+- [Fitness Features](#fitness-features)
+- [Match Features](#match-features)
+- [Troubleshooting](#troubleshooting)
+- [Support](#support)
+
+---
+
+## General Questions
+
+### What is Tennis Score Tracker?
 
 Tennis Score Tracker is a simple, intuitive Apple Watch app designed to keep score during tennis matches while tracking your fitness metrics. No more forgetting the score mid-match!
 
-Which Apple Watch models are supported?
-The app supports all Apple Watch models from Series 3 (38mm) onwards, including:
+### Which Apple Watch models are supported?
 
-Series 3, 4, 5, 6, 7, 8, 9
-Apple Watch SE (all generations)
-Apple Watch Ultra
+✅ **Supported Models:**
+- Apple Watch Series 3 (38mm, 42mm)
+- Apple Watch Series 4, 5, 6 (40mm, 44mm)
+- Apple Watch Series 7, 8, 9 (41mm, 45mm)
+- Apple Watch SE (all generations)
+- Apple Watch Ultra
 
+### Do I need my iPhone to use the app?
 
-Do I need my iPhone to use the app?
+**No!** 📱❌ The app runs independently on your Apple Watch. Leave your iPhone in your bag and play freely.
 
-No! The app runs independently on your Apple Watch. You can leave your iPhone in your bag.
+### Is the app available in my country?
 
-Is the app available in my country?
-Yes, the app is available worldwide on the App Store.
+Yes! 🌍 The app is available worldwide on the App Store.
 
-🏆 Scoring System
+---
 
-What scoring format does the app use?
-The app follows standard tennis scoring rules:
+## Scoring System
 
-Points: 0 (Love), 15, 30, 40, Deuce, Advantage
-Games: First to 6 with a 2-game lead
-Sets: Best of 3 (first to win 2 sets)
-Tie-breaks: At 6-6, first to 7 points with 2-point lead
-Match tie-break: In the deciding set, first to 10 points with 2-point lead
+### What scoring format does the app use?
 
-Can I use it for other racquet sports?
-Currently, the app is optimized for tennis scoring. Padel mode with golden point rules is planned for a future update.
-📱 User Interface
-What do the yellow indicators mean?
+The app follows **standard tennis scoring rules**:
 
-Yellow circle dot: Shows which player is currently serving
-Yellow side bars: Indicate which side the server should serve from (deuce/right or ad/left)
+| Level | Format |
+|-------|---------|
+| **Points** | 0 (Love), 15, 30, 40, Deuce, Advantage |
+| **Games** | First to 6 with a 2-game lead |
+| **Sets** | Best of 3 (first to win 2 sets) |
+| **Tie-break** | At 6-6, first to 7 points (2-point lead) |
+| **Match Tie-break** | Deciding set: first to 10 points (2-point lead) |
 
-How do I add points?
-Simply tap on the scoring circle of the player who won the point. The app automatically handles score progression, deuce, and advantage situations.
-What does "Let's Start" mean?
-This temporary overlay appears when you start a new match, confirming the match has begun and workout tracking is active.
-Can I undo mistakes?
-Yes! Use the "Undo" button to reverse the last action. The app maintains up to 50 states in history.
-💪 Fitness Features
-What fitness metrics are tracked?
+### Can I use it for other racquet sports?
 
-Steps: Real-time step count during your match
-Calories: Active calories burned
-Duration: Total match time
+🎾 Currently optimized for **tennis only**  
+🏸 Padel mode (with golden point) coming in v2.0!
 
-Do I need to grant permissions?
-Yes, the app requires:
+---
 
-HealthKit: To save workouts and read calories burned
-Motion & Fitness: To count your steps
+## User Interface
 
-The app works without these permissions, but fitness tracking will show zero values.
-Are my workouts saved to Apple Health?
-Yes! Each match is saved as a tennis workout in Apple Health, including duration, calories, and time.
-🎯 Match Features
-What happens in a tie-break?
+### What do the yellow indicators mean?
 
-At 6-6 in games, a tie-break begins
-First to 7 points with a 2-point lead wins
-The app shows "Tie-Break" overlay and tracks points differently
-Server alternates every 2 points
+The app uses **yellow visual cues** to show serving information:
 
-What's a Match Tie-Break?
-When sets are tied 1-1, a special match tie-break begins:
+| Indicator | Meaning |
+|-----------|---------|
+| 🟡 **Yellow dot** | Shows which player is currently serving |
+| 📍 **Left yellow bar** | Server should serve from ad court (left) |
+| 📍 **Right yellow bar** | Server should serve from deuce court (right) |
 
-First to 10 points with a 2-point lead wins the match
-Shows "Match Tie-Break" overlay
+### How do I add points?
 
-Can I see match statistics?
-Yes! After each match, a summary screen displays:
+Simply **tap the score circle** of the player who won the point!
 
-Winner
-Final score in ITF format (e.g., "6-4 7-6(5)")
-Total steps
-Calories burned
-Match duration
+```
+┌─────────────┐     ┌─────────────┐
+│  Player 1   │     │  Player 2   │
+│    ┌───┐    │     │    ┌───┐    │
+│    │ 30│←───┼─────┼───→│ 15│    │
+│    └───┘    │ TAP │    └───┘    │
+└─────────────┘     └─────────────┘
+```
 
-Can I change player names?
-Currently, players are labeled "Player 1" and "Player 2". Custom names are planned for a future update.
-🔧 Troubleshooting
-The serve indicator seems wrong
-The serve indicator follows standard tennis rules:
+The app automatically handles:
+- ✅ Score progression
+- ✅ Deuce situations
+- ✅ Advantage scoring
+- ✅ Game/set wins
 
-Yellow dot shows who's serving
-Side bars show which side to serve from
-In tie-breaks, server changes every 2 points
+### What does "Let's Start" mean?
 
-Steps or calories show as 0
-Check that you've granted Motion & Fitness and HealthKit permissions in your iPhone's Settings > Privacy.
-The app crashed or froze
-Force quit the app (press and hold the side button, then swipe the app away) and restart. Your match progress will be lost, but this is rare.
-Buttons are cut off on my 38mm/40mm watch
-The app is optimized for all watch sizes. If you experience layout issues, please report them via App Store review.
-📲 Download
-Download Tennis Score Tracker on the App Store
+🚀 This **temporary overlay** appears for 2 seconds when you start a new match, confirming:
+- Match has begun
+- Workout tracking is active
+- Ready to score!
+
+### Can I undo mistakes?
+
+Yes! The **Undo button** reverses your last action.
+- 📝 Maintains up to 50 states in history
+- ⚡ Instant undo with haptic feedback
+- 🔄 Works for points, games, and serves
+
+---
+
+## Fitness Features
+
+### What fitness metrics are tracked?
+
+| Metric | Description | Update Frequency |
+|--------|-------------|------------------|
