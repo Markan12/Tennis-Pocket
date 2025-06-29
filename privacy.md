@@ -5,7 +5,7 @@ nav_order: 2
 ---
 # Privacy Policy
 
-**Tennis Score Tracker**  
+**Tennis Score Tracker "Tennis Pocket"**  
 **Effective Date: May 2025**
 
 ## 1. Introduction
