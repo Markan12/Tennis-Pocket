@@ -5,9 +5,13 @@ nav_order: 3
 ---
 
 Tennis Score Tracker for Apple Watch - FAQ
+
 🎾 General Questions
+
 What is Tennis Score Tracker?
+
 Tennis Score Tracker is a simple, intuitive Apple Watch app designed to keep score during tennis matches while tracking your fitness metrics. No more forgetting the score mid-match!
+
 Which Apple Watch models are supported?
 The app supports all Apple Watch models from Series 3 (38mm) onwards, including:
 
@@ -15,11 +19,16 @@ Series 3, 4, 5, 6, 7, 8, 9
 Apple Watch SE (all generations)
 Apple Watch Ultra
 
+
 Do I need my iPhone to use the app?
+
 No! The app runs independently on your Apple Watch. You can leave your iPhone in your bag.
+
 Is the app available in my country?
 Yes, the app is available worldwide on the App Store.
+
 🏆 Scoring System
+
 What scoring format does the app use?
 The app follows standard tennis scoring rules:
 
