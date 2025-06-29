@@ -3,93 +3,125 @@ layout: default
 title: Privacy Policy
 nav_order: 2
 ---
-Privacy Policy for Tennis Score Tracker
-Last updated: December 2024
-Overview
+# Privacy Policy
+
+**Tennis Score Tracker for Apple Watch**  
+**Last updated: December 2024**
+
+## Overview
+
 Tennis Score Tracker ("we", "our", or "the app") is committed to protecting your privacy. This Privacy Policy explains how we handle your information when you use our Apple Watch application.
-The short version: We don't collect, store, or share any of your personal data. All data stays on your device.
-Information We DON'T Collect
+
+> **TL;DR: We don't collect, store, or share any of your personal data. All data stays on your device.**
+
+## Information We DON'T Collect
+
 We do not collect, store, or transmit:
+- ❌ Personal information (name, email, phone number)
+- ❌ Location data
+- ❌ Device identifiers
+- ❌ Analytics or usage data
+- ❌ Advertising identifiers
+- ❌ Any data to external servers
 
-Personal information (name, email, phone number)
-Location data
-Device identifiers
-Analytics or usage data
-Advertising identifiers
-Any data to external servers
+## Information Stored Locally
 
-Information Stored Locally
-The following data is stored only on your Apple Watch:
+The following data is stored **only** on your Apple Watch:
 
-Match scores and game progress
-Player names (default: "Player 1" and "Player 2")
-Match history for the current session
+| Data Type | Description | Storage Duration |
+|-----------|-------------|------------------|
+| Match scores | Points, games, sets | Until app is uninstalled |
+| Game progress | Current match state | Until match ends |
+| Player names | Default: "Player 1" and "Player 2" | Until app is uninstalled |
 
-This data is:
+### Important Notes:
+- 🔒 Never transmitted off your device
+- 🗑️ Deleted when you uninstall the app
+- ☁️ Not backed up to iCloud
 
-Never transmitted off your device
-Deleted when you uninstall the app
-Not backed up to iCloud
+## HealthKit Integration
 
-HealthKit Integration
-Our app integrates with Apple HealthKit to:
+Our app integrates with Apple HealthKit to provide fitness tracking during matches.
 
-Track steps during matches (read-only)
-Track active calories burned (read-only)
-Save tennis workouts to Apple Health
+### What we access:
+- **Steps** - Read-only access to count steps during matches
+- **Active Calories** - Read-only access to track calories burned
+- **Workouts** - Write access to save tennis workouts
 
-Important:
+### Privacy guarantees:
+- ✅ Health data is only accessed during active matches
+- ✅ Never stored permanently by our app
+- ✅ Never transmitted off your device
+- ✅ App works without HealthKit (fitness features disabled)
 
-We only access health data during active matches
-Health data is never stored by our app
-Health data is never transmitted off your device
-You can deny HealthKit access and still use the app for scoring
+## Motion & Fitness Data
 
-Motion & Fitness Data
-We request access to Motion & Fitness to:
+We request Motion & Fitness access to count steps using your device's pedometer.
 
-Count steps during your match using the device's pedometer
+- 📱 Only accessed during active matches
+- 👀 Displayed in real-time and match summaries
+- 🚫 Never stored permanently or transmitted
 
-This data:
+## Third-Party Services
 
-Is only accessed during active matches
-Is displayed in real-time and in match summaries
-Is never stored permanently or transmitted
+**We use ZERO third-party services:**
+- No analytics platforms
+- No advertising networks
+- No cloud storage services
+- No crash reporting tools
+- No external APIs
 
-Third-Party Services
-We do not use any third-party services, including:
+## Data Security
 
-Analytics platforms
-Advertising networks
-Cloud storage services
-Crash reporting tools
+Since we don't collect or transmit data:
+- ✅ No risk of data breaches through our app
+- ✅ No servers to hack
+- ✅ Your data stays protected by your device's security
 
-Data Security
-Since we don't collect or transmit data, there's no risk of your data being intercepted or breached through our app. All data remains under the protection of your device's built-in security features.
-Children's Privacy
-Our app is rated 4+ and suitable for all ages. We do not knowingly collect any information from anyone, including children.
-Your Rights
-You have complete control over your data:
+## Children's Privacy
 
-Access: All data is visible within the app
-Deletion: Uninstalling the app removes all data
-Permissions: You can revoke HealthKit and Motion permissions anytime in Settings
+- 👶 App rated 4+ (suitable for all ages)
+- 🚸 We don't collect information from anyone, including children
+- 👨‍👩‍👧‍👦 Safe for family use
 
-Changes to This Policy
-We may update this Privacy Policy from time to time. The updated version will be indicated by an updated "Last updated" date.
-Contact Us
-If you have questions about this Privacy Policy, please contact us:
+## Your Rights
 
-Email: [your-email@example.com]
-GitHub: [your-github-repo]
+You have **complete control** over your data:
 
-Compliance
+| Right | How to Exercise |
+|-------|----------------|
+| **Access** | All data visible within the app |
+| **Deletion** | Uninstall the app |
+| **Permissions** | Settings > Privacy > Health / Motion & Fitness |
+
+## Changes to This Policy
+
+- 📅 Check "Last updated" date for changes
+- 📲 Updated policy will be available at this URL
+- ℹ️ No notification needed (we don't have your contact info!)
+
+## Contact Us
+
+Questions or concerns about privacy?
+
+- 📧 Email: `[your-email@example.com]`
+- 💬 GitHub Issues: `[github.com/yourusername/tennis-score-tracker]`
+
+## Legal Compliance
+
 This app complies with:
+- ✅ Apple's App Store Review Guidelines
+- ✅ Apple's HealthKit Guidelines
+- ✅ GDPR (General Data Protection Regulation)
+- ✅ CCPA (California Consumer Privacy Act)
 
-Apple's App Store Review Guidelines
-Apple's HealthKit guidelines
-GDPR (General Data Protection Regulation)
-CCPA (California Consumer Privacy Act)
+---
 
+<div align="center">
 
-Remember: Tennis Score Tracker is designed with privacy-first principles. We believe your fitness data is yours alone, and our app reflects that commitment.
+**🎾 Tennis Score Tracker**  
+*Privacy-first tennis scoring*
+
+[Download on App Store](#) | [View on GitHub](#)
+
+</div>
