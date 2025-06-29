@@ -1,6 +1,9 @@
-# Tennis Pocket – FAQ
+---
+layout: default
+title: Welcome
+nav_order: 1
+---
 
-**Wie zähle ich Schritte?**  
-Die App nutzt HealthKit …
+# Welcome to Tennis Pocket
 
-[→ Datenschutzerklärung](privacy.md)
+This page will include FAQ and privacy policy info.
