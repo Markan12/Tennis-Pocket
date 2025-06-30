@@ -3,6 +3,7 @@ layout: default
 title: Privacy Policy
 nav_order: 2
 ---
+<img src="{{ '/3F394B7C-95F8-456C-8750-A20813FE5023.png' | relative_url }}" alt="Tennis Pocket banner" style="width:100%; margin-bottom:1rem;">
 # Privacy Policy
 
 **Tennis Score Tracker "Tennis Pocket"**  
