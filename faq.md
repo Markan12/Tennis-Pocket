@@ -21,9 +21,9 @@ nav_order: 3
 
 ## General Questions
 
-### What is Tennis Score Tracker?
+### What is Tennis Pocket?
 
-Tennis Score Tracker is a simple, intuitive Apple Watch app designed to keep score during tennis matches while tracking your fitness metrics. No more forgetting the score mid-match!
+Tennis Pocket is a simple, intuitive Apple Watch app designed to keep score during tennis matches while tracking your fitness metrics. No more forgetting the score mid-match!
 
 ### Which Apple Watch models are supported?
 
