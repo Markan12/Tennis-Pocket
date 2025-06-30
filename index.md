@@ -6,4 +6,4 @@ nav_order: 1
 
 # Welcome to Tennis Pocket
 
-This page will include FAQ and privacy policy info.
+You will find the FAQ and privacy policy info on this site
