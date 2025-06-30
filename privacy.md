@@ -83,22 +83,13 @@ The App stores all data locally on the user's device and does not transfer data 
 
 We may update this Privacy Policy periodically. The "Effective Date" at the top of this policy indicates when it was last revised. Continued use of the App after changes constitutes acceptance of the updated policy.
 
-## 10. Legal Compliance
-
-This Privacy Policy is designed to comply with:
-- Apple App Store Guidelines
-- General Data Protection Regulation (GDPR)
-- California Consumer Privacy Act (CCPA)
-- Health Insurance Portability and Accountability Act (HIPAA) guidelines for health data
-
-## 11. Contact Information
+## 10. Contact Information
 
 For questions regarding this Privacy Policy, please contact:
+ 
+GitHub: [github.com/Markan12/tennis-pocket]
 
-Email: [your-email@example.com]  
-GitHub: [github.com/yourusername/tennis-score-tracker]
-
-## 12. Consent
+## 11. Consent
 
 By using the App, you consent to this Privacy Policy and its terms.
 
