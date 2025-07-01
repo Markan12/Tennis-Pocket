@@ -215,24 +215,6 @@ The serve indicator follows **official tennis rules**:
 
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
 ---
-
-## Support
-
-### Need help or found a bug?
-
-| Channel | Best for | Response time |
-|---------|----------|---------------|
-| 🌟 **App Store Review** | Feature requests | We read all reviews |
-| 🐛 **GitHub Issues** | Bug reports | 1-2 days |
-| 📧 **Email** | Private concerns | 2-3 days |
-
-### Contact Information
-
-- **GitHub**: `[github.com/yourusername/tennis-score-tracker]`
-- **App Store**: [Download Here](#)
-
----
-
 <div align="center">
 
 ## Download Now
@@ -241,7 +223,7 @@ The serve indicator follows **official tennis rules**:
 
 Available on Apple Watch Series 3 and later
 
-[![Download on App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](#)
+[![Download on the App Store](/assets/img/app-store-badge.svg){: width="180" }](https://apps.apple.com/app/id123456789)
 
 **Version 1.0** | Made with ❤️ for tennis players
 
