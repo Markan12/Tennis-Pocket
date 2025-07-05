@@ -233,24 +233,41 @@ Proper line breaks between elements
 Working links to your Privacy Policy and GitHub repo
 This should look much cleaner now!
 
+image.png
+aligbnment still off
+
+Bearbeiten
+I see the issue! The alignment is still off because the markdown headers and text are not being properly centered. Let me fix this by using proper HTML structure:
+
+
+Fixed App Store Badge Code
+Code ∙ Version 5 
+I've converted everything inside the centered div to proper HTML tags:
+
+<h2> and <h3> for headers instead of ## and ###
+<p> tags for paragraphs
+<a> tags for links instead of markdown link syntax
+<strong> instead of ** for bold text
+This should give you proper center alignment for all the text elements. The HTML approach is more reliable for precise alignment in Jekyll/Just the Docs than mixing markdown syntax inside a centered div.
+
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
 
 ---
 
 <div align="center">
 
-## Download Now
+<h2>Download Now</h2>
 
-### 🎾 Tennis Score Tracker
+<h3>🎾 Tennis Score Tracker</h3>
 
-Available on Apple Watch Series 3 and later
+<p>Available on Apple Watch Series 3 and later</p>
 
 <a href="https://apps.apple.com/de/app/tennis-pocket/id674752102">
     <img src="./app-store-badge.png" alt="Download on the App Store" width="180">
 </a>
 
-**Version 1.0** | Made with ❤️ for tennis players
+<p><strong>Version 1.0</strong> | Made with ❤️ for tennis players</p>
 
-[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/Markan12/Tennis-Pocket)
+<p><a href="PRIVACY.md">Privacy Policy</a> | <a href="https://github.com/Markan12/Tennis-Pocket">GitHub</a></p>
 
 </div>
