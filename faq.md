@@ -232,6 +232,3 @@ Available on Apple Watch Series 3 and later
 {: .text-center }
 **Version 1.0** | Made with ❤️ for tennis players
 
-{: .text-center }
-[Privacy Policy](PRIVACY.md) |
-</div>
