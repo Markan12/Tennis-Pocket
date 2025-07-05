@@ -223,7 +223,7 @@ The serve indicator follows **official tennis rules**:
 
 Available on Apple Watch Series 3 and later
 
-[![Download on the App Store](/assets/img/app-store-badge.svg){: width="180" }](https://apps.apple.com/app/id123456789)
+[![Download on the App Store](/assets/img/app-store-badge.svg){: width="180" }](https://apps.apple.com/de/app/tennis-pocket/id6747521025)
 
 **Version 1.0** | Made with ❤️ for tennis players
 
