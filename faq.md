@@ -213,6 +213,26 @@ The serve indicator follows **official tennis rules**:
 2. When app grid appears, swipe up on Tennis Score
 3. Restart the app
 
+image.png
+better but not good
+
+Bearbeiten
+Great! The App Store badge is now showing correctly, but I can see the formatting is still messy. The issue is that the text is not properly structured. Let me fix the layout:
+
+
+Fixed App Store Badge Code
+Code ∙ Version 4 
+I've made two key fixes:
+
+Updated the GitHub URL to match your actual repository: https://github.com/Markan12/Tennis-Pocket
+Fixed the Privacy Policy link to point to PRIVACY.md (which I can see exists in your repo)
+The main issue was that the text was all running together. The proper structure with the <div align="center"> tags should give you clean, centered formatting with:
+
+The App Store badge as a clickable image
+Proper line breaks between elements
+Working links to your Privacy Policy and GitHub repo
+This should look much cleaner now!
+
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
 
 ---
@@ -231,9 +251,6 @@ Available on Apple Watch Series 3 and later
 
 **Version 1.0** | Made with ❤️ for tennis players
 
-[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/yourusername/tennis-score-tracker)
-
-</div>
-[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/yourusername/tennis-score-tracker)
+[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/Markan12/Tennis-Pocket)
 
 </div>
