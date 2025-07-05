@@ -214,7 +214,9 @@ The serve indicator follows **official tennis rules**:
 3. Restart the app
 
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
+
 ---
+
 <div align="center">
 
 ## Download Now
@@ -223,7 +225,7 @@ The serve indicator follows **official tennis rules**:
 
 Available on Apple Watch Series 3 and later
 
-[![Download on the App Store](/assets/img/app-store-badge.png){: width="180" }](https://apps.apple.com/de/app/tennis-pocket/id6747521025)
+[![Download on the App Store](./assets/img/app-store-badge.png)](https://apps.apple.com/de/app/tennis-pocket/id674752102)
 
 **Version 1.0** | Made with ❤️ for tennis players
 
