@@ -213,59 +213,6 @@ The serve indicator follows **official tennis rules**:
 2. When app grid appears, swipe up on Tennis Score
 3. Restart the app
 
-image.png
-better but not good
-
-Bearbeiten
-Great! The App Store badge is now showing correctly, but I can see the formatting is still messy. The issue is that the text is not properly structured. Let me fix the layout:
-
-
-Fixed App Store Badge Code
-Code ∙ Version 4 
-I've made two key fixes:
-
-Updated the GitHub URL to match your actual repository: https://github.com/Markan12/Tennis-Pocket
-Fixed the Privacy Policy link to point to PRIVACY.md (which I can see exists in your repo)
-The main issue was that the text was all running together. The proper structure with the <div align="center"> tags should give you clean, centered formatting with:
-
-The App Store badge as a clickable image
-Proper line breaks between elements
-Working links to your Privacy Policy and GitHub repo
-This should look much cleaner now!
-
-image.png
-aligbnment still off
-
-Bearbeiten
-I see the issue! The alignment is still off because the markdown headers and text are not being properly centered. Let me fix this by using proper HTML structure:
-
-
-Fixed App Store Badge Code
-Code ∙ Version 5 
-I've converted everything inside the centered div to proper HTML tags:
-
-<h2> and <h3> for headers instead of ## and ###
-<p> tags for paragraphs
-<a> tags for links instead of markdown link syntax
-<strong> instead of ** for bold text
-This should give you proper center alignment for all the text elements. The HTML approach is more reliable for precise alignment in Jekyll/Just the Docs than mixing markdown syntax inside a centered div.
-
-image.png
-I think html does not work in Just the Docs in Github. Do it like before but try to center every thing properly
-
-Bearbeiten
-You're right! Let me go back to markdown syntax but fix the centering properly. The issue is that Just the Docs needs specific markdown formatting for centering:
-
-
-Fixed App Store Badge Code
-Code ∙ Version 6 
-Now I'm using Just the Docs' proper markdown centering syntax:
-
-{: .text-center } after each element tells Just the Docs to center that specific element
-Back to standard markdown syntax (##, ###, **bold**, [links]())
-Using the markdown image syntax [![]()]() which should work better than HTML
-This approach uses Just the Docs' built-in CSS classes for centering, which should work much better than trying to use HTML div tags.
-
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
 
 ---
