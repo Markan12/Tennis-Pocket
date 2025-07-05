@@ -250,24 +250,41 @@ I've converted everything inside the centered div to proper HTML tags:
 <strong> instead of ** for bold text
 This should give you proper center alignment for all the text elements. The HTML approach is more reliable for precise alignment in Jekyll/Just the Docs than mixing markdown syntax inside a centered div.
 
+image.png
+I think html does not work in Just the Docs in Github. Do it like before but try to center every thing properly
+
+Bearbeiten
+You're right! Let me go back to markdown syntax but fix the centering properly. The issue is that Just the Docs needs specific markdown formatting for centering:
+
+
+Fixed App Store Badge Code
+Code ∙ Version 6 
+Now I'm using Just the Docs' proper markdown centering syntax:
+
+{: .text-center } after each element tells Just the Docs to center that specific element
+Back to standard markdown syntax (##, ###, **bold**, [links]())
+Using the markdown image syntax [![]()]() which should work better than HTML
+This approach uses Just the Docs' built-in CSS classes for centering, which should work much better than trying to use HTML div tags.
+
 ⚠️ **Note**: Match progress will be lost (no cloud save in v1.0)
 
 ---
 
-<div align="center">
+{: .text-center }
+## Download Now
 
-<h2>Download Now</h2>
+{: .text-center }
+### 🎾 Tennis Score Tracker
 
-<h3>🎾 Tennis Score Tracker</h3>
+{: .text-center }
+Available on Apple Watch Series 3 and later
 
-<p>Available on Apple Watch Series 3 and later</p>
+{: .text-center }
+[![Download on the App Store](./app-store-badge.png)](https://apps.apple.com/de/app/tennis-pocket/id674752102)
 
-<a href="https://apps.apple.com/de/app/tennis-pocket/id674752102">
-    <img src="./app-store-badge.png" alt="Download on the App Store" width="180">
-</a>
+{: .text-center }
+**Version 1.0** | Made with ❤️ for tennis players
 
-<p><strong>Version 1.0</strong> | Made with ❤️ for tennis players</p>
-
-<p><a href="PRIVACY.md">Privacy Policy</a> | <a href="https://github.com/Markan12/Tennis-Pocket">GitHub</a></p>
-
+{: .text-center }
+[Privacy Policy](PRIVACY.md) | [GitHub](https://github.com/Markan12/Tennis-Pocket)
 </div>
